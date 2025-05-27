@@ -97,7 +97,7 @@ func LoadConfig() *Config {
 	cfg := &Config{
 		BindIP:		getFlagOrEnv(*bindIp, "BIND_IP", "localhost"),
 		BindPort:	getFlagOrEnv(*bindPort, "BIND_PORT", "8066"),
-		LogPath:	getFlagOrEnv(*logPath, "LOG_PATH", "/var/log/ipsec-restarter.log"),
+		LogPath:	getFlagOrEnv(*logPath, "LOG_PATH", "/var/log/scale-exporter.log"),
 		ClusterIP: 	getFlagOrEnv(*clusterIp, "CLUSTER", ""),
 		Username: 	getFlagOrEnv(*clusterUsername, "USERNAME", ""),
 		Password: 	getFlagOrEnv(*clusterPassword, "PASSWORD", ""),
