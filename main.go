@@ -155,6 +155,6 @@ func main() {
 	bindStr := cfg.BindIP+":"+cfg.BindPort
 
 	http.Handle("/metrics", promhttp.Handler())
-	logger.Log.Infoln("Exporter running on :" + bindStr)
+	logger.Log.Infoln("Exporter running on: " + bindStr)
 	log.Fatal(http.ListenAndServe(bindStr, nil))
 }
