@@ -1,3 +1,5 @@
+<br>[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)<br>
+
 # Scale Computing Prometheus Exporter
 
 A Prometheus exporter that scrapes node metrics from a [Scale Computing](https://www.scalecomputing.com/) cluster and exposes them for Prometheus to collect.
